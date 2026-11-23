@@ -1,0 +1,14 @@
+{
+  "status": "published",
+  "repository": "https://github.com/Motty9let/ii-agent-fkn",
+  "branch": "main",
+  "visibility": "public",
+  "verified_at_utc": "2026-11-23T18:56:15.276Z",
+  "content_commit": "a4261cb1af8461b7acaa75cf2108080dcbb72ead",
+  "content_tree": "4c9fe5a31130bf3b61046464a4978473d3da82d7",
+  "verified_files": 71,
+  "verification": "Anonymous HTTPS clone; all 71 tracked file paths and bytes match the reviewed redacted publication copy",
+  "redactions": "Absolute workstation paths and personal author metadata replaced in public documents; application code, tests, fixtures, snapshots and images unchanged",
+  "security": "No .env, dependencies, instructor archive, parent-project files, or credential-pattern matches in the reviewed publication set",
+  "submission": "Repository published; course discussion and homework spreadsheet not edited"
+}
