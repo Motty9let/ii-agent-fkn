@@ -1,0 +1,102 @@
+{
+  "date_utc": "2026-11-23T18:40:45.530745+00:00",
+  "arms": {
+    "direct": {
+      "frozen_files": [
+        {
+          "file": "brief.md",
+          "sha256": "e15e73fab0e1d3b9377b42dee5887c020f468c86a9bcdac0b297e6a02304c134",
+          "matches_frozen": true
+        },
+        {
+          "file": "tests/acceptance.test.mjs",
+          "sha256": "dc71ddb519a39d128bdd39fd7de9b5088ba9ba715a6c6f3fca8cf6f4e09d091a",
+          "matches_frozen": true
+        }
+      ],
+      "commands": [
+        {
+          "command": [
+            "node",
+            "--test",
+            "tests/acceptance.test.mjs"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "node",
+            "--check",
+            "app.mjs"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "node",
+            "--check",
+            "domain.mjs"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "initial_equals_current": {
+        "index.html": true,
+        "styles.css": true,
+        "app.mjs": true,
+        "domain.mjs": true
+      }
+    },
+    "with-spec": {
+      "frozen_files": [
+        {
+          "file": "brief.md",
+          "sha256": "e15e73fab0e1d3b9377b42dee5887c020f468c86a9bcdac0b297e6a02304c134",
+          "matches_frozen": true
+        },
+        {
+          "file": "tests/acceptance.test.mjs",
+          "sha256": "dc71ddb519a39d128bdd39fd7de9b5088ba9ba715a6c6f3fca8cf6f4e09d091a",
+          "matches_frozen": true
+        }
+      ],
+      "commands": [
+        {
+          "command": [
+            "node",
+            "--test",
+            "tests/acceptance.test.mjs"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "node",
+            "--check",
+            "app.mjs"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "node",
+            "--check",
+            "domain.mjs"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "initial_equals_current": {
+        "index.html": true,
+        "styles.css": true,
+        "app.mjs": true,
+        "domain.mjs": true
+      }
+    }
+  },
+  "openspec": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "status": "PASS"
+}

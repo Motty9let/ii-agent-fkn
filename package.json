@@ -1,0 +1,12 @@
+{
+  "name": "agents-hw1",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ДЗ №1 B: direct vs OpenSpec",
+  "scripts": {
+    "test": "node --test direct/tests/acceptance.test.mjs with-spec/tests/acceptance.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}

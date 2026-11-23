@@ -1,0 +1,31 @@
+{
+  "direct": {
+    "title": "#title",
+    "hours": "#hours",
+    "submit": "#task-form button[type=submit]",
+    "rows": "#task-list > li",
+    "progress": "#progress-text",
+    "total": "#total-hours",
+    "done": "#done-hours",
+    "titleError": "#title-error",
+    "hoursError": "#hours-error",
+    "empty": "#empty-state",
+    "filterAll": "[data-filter=all]",
+    "filterActive": "[data-filter=active]",
+    "filterDone": "[data-filter=done]"
+  },
+  "with-spec": {
+    "title": "#title",
+    "hours": "#hours",
+    "submit": "#task-form button[type=submit]",
+    "rows": "#task-list > li",
+    "progress": "#progress-value",
+    "titleError": "#title-error",
+    "hoursError": "#hours-error",
+    "empty": "#empty",
+    "filterAll": "[data-filter=all]",
+    "filterActive": "[data-filter=active]",
+    "filterDone": "[data-filter=done]",
+    "summary": "#hours-summary"
+  }
+}

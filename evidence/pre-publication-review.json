@@ -1,0 +1,14 @@
+{
+  "reviewed_at_utc": "2026-11-23T18:51:34.329627+00:00",
+  "repository": "Motty9let/ii-agent-fkn",
+  "visibility": "public",
+  "scope": "Only tracked files of this homework repository; no parent project, Downloads, instructor archive, credentials, or dependencies",
+  "forbidden_tracked_files": [],
+  "credential_pattern_matches": [],
+  "checks": [
+    "Reviewed tracked paths",
+    "Scanned text files for common GitHub, AWS, OpenAI, Yandex token and private-key patterns",
+    "Verified .env, node_modules, .agents and .codex are excluded"
+  ],
+  "limit": "Pattern scanning alone is not a proof against every possible credential format; submitted code and reports were generated for this synthetic homework without real API keys."
+}

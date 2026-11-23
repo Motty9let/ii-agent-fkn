@@ -1,0 +1,10 @@
+node_modules/
+.tooling/
+.runtime/
+.env
+.env.*
+__pycache__/
+.DS_Store
+*.dpapi
+.agents/
+.codex/

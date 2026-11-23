@@ -1,0 +1,3 @@
+$ openspec validate build-tracker --strict --no-interactive
+Change 'build-tracker' is valid
+exit=0

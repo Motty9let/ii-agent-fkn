@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5741b3">
+  <title>Учебная неделя — трекер задач</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <main class="workspace">
+    <header class="heading">
+      <span class="eyebrow">МАЛЕНЬКИЕ ШАГИ · БОЛЬШИЕ ЗНАНИЯ</span>
+      <h1>Учебная неделя<span class="dot">.</span></h1>
+      <p>Собери задачи в один план и двигайся в своём темпе.</p>
+    </header>
+    <section class="overview" aria-labelledby="progress-heading">
+      <div class="progress-top"><h2 id="progress-heading">Твой прогресс</h2><span id="progress-text" class="percentage">25%</span></div>
+      <progress id="progress" max="100" value="25" aria-label="Выполнено от общего времени">25%</progress>
+      <div class="stats" aria-live="polite"><p><strong id="done-hours">2</strong> ч выполнено</p><p><strong id="total-hours">8</strong> ч запланировано</p></div>
+      <p class="overview-note">Прогресс учитывает время всех задач, включая скрытые фильтром.</p>
+    </section>
+    <section class="panel" aria-labelledby="add-heading">
+      <h2 id="add-heading">Что будем изучать?</h2>
+      <form id="task-form" novalidate>
+        <div class="field title-field"><label for="title">Название задачи</label><input id="title" name="title" type="text" placeholder="Например, разобрать лекцию" aria-describedby="title-error" required><p id="title-error" class="error" aria-live="polite"></p></div>
+        <div class="field hours-field"><label for="hours">Время, ч</label><input id="hours" name="hours" type="number" min="0.5" max="24" step="0.5" placeholder="1,5" aria-describedby="hours-hint hours-error" required><p id="hours-hint" class="hint">0,5–24, шаг 0,5</p><p id="hours-error" class="error" aria-live="polite"></p></div>
+        <button class="primary" type="submit">+ Добавить</button>
+      </form>
+    </section>
+    <section class="panel tasks-panel" aria-labelledby="tasks-heading">
+      <div class="list-heading"><h2 id="tasks-heading">Задачи <span id="task-count" class="count">3</span></h2><div class="filters" role="group" aria-label="Фильтр задач"><button type="button" data-filter="all" aria-pressed="true">Все</button><button type="button" data-filter="active" aria-pressed="false">Активные</button><button type="button" data-filter="done" aria-pressed="false">Готовые</button></div></div>
+      <ul id="task-list" class="task-list"></ul>
+      <p id="empty-state" class="empty-state" hidden></p>
+    </section>
+    <p id="announcement" class="sr-only" role="status"></p>
+    <footer>Данные живут до перезагрузки страницы. После неё вернётся учебный пример.</footer>
+    <noscript>Для работы трекера включите JavaScript в браузере.</noscript>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Локальная история эксперимента до публикации на GitHub:
+
+54c601c 2026-11-23T21:33:09+03:00 Freeze shared brief, fixtures and acceptance checks before implementation
+b9b7e26 2026-11-23T21:39:03+03:00 Save direct implementation and reviewed OpenSpec documents
+0188c65 2026-11-23T21:44:15+03:00 Complete OpenSpec tracker, browser checks and factual comparison report
+b1be19b 2026-11-23T21:45:37+03:00 Set requested project title: ИИ агент ФКН
+
+SHA в отчёте относятся к этой локальной истории. GitHub-публикация через подключение создаёт отдельные коммиты; исходные версии обеих реализаций сохранены в initial/.

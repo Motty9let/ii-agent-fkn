@@ -1,0 +1,65 @@
+{
+  "arm": "with-spec",
+  "url": "http://127.0.0.1:8765/with-spec/",
+  "date": "2026-11-23T18:40:55.808Z",
+  "browser": "157.0.8103.79",
+  "method": "Automated browser interaction via Playwright (not manual inspection)",
+  "results": [
+    {
+      "id": "T1",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:54.215Z",
+      "details": "3 tasks; 8 h total; 2 h done; 25%"
+    },
+    {
+      "id": "T2",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:54.380Z",
+      "details": "Practice checked: 75%; unchecked: 25%"
+    },
+    {
+      "id": "T3",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:54.595Z",
+      "details": "Active: 2; done: 1; metrics remain 25%"
+    },
+    {
+      "id": "T4",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:54.705Z",
+      "details": "7 invalid input cases rejected, visible field errors, both inputs preserved"
+    },
+    {
+      "id": "T4-boundaries",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:55.191Z",
+      "details": "0.5 and 24 accepted as active tasks"
+    },
+    {
+      "id": "T5",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:55.322Z",
+      "details": "All deleted: 0 h / 0%; adding afterwards works"
+    },
+    {
+      "id": "safe-title",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:55.487Z",
+      "details": "Title rendered as plain text; no image or alert"
+    },
+    {
+      "id": "UI-390",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:55.564Z",
+      "details": "{\"viewport\":390,\"document\":390,\"body\":390}; controls fit and adding works"
+    },
+    {
+      "id": "runtime",
+      "status": "PASS",
+      "started": "2026-11-23T18:40:55.805Z",
+      "details": "No page errors or external requests"
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": []
+}
